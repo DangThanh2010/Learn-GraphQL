@@ -1,2 +1,8 @@
 #Node module
 node_modules/
+
+#yarn
+yarn-error.log
+
+#build
+build/
