@@ -1,0 +1,30 @@
+type Query {
+  greeting: String
+  company: Company
+  companys: [Company]
+  job: Job
+  jobs: [Job]
+  user: User
+  users: [User]
+}
+
+type Company {
+  id: ID
+  name: String
+  description: String
+}
+
+type Job {
+  id: ID
+  companyId: ID
+  title: String
+  description: String
+  createdAt: String
+}
+
+type User {
+  id: ID
+  companyId: ID
+  email: String
+  password: String
+}
