@@ -1,7 +1,6 @@
 type Query {
-  greeting: String
   company: Company
-  companys: [Company]
+  companies: [Company]
   job: Job
   jobs: [Job]
   user: User
@@ -16,7 +15,7 @@ type Company {
 
 type Job {
   id: ID
-  companyId: ID
+  company: Company
   title: String
   description: String
   createdAt: String

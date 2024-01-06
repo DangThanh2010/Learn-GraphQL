@@ -1,4 +1,4 @@
-const serverURL = "http://localhost:3002/";
+const serverURL = "http://localhost:9000/graphql";
 
 const fetchGreeting = async () => {
   try {
